@@ -3,7 +3,7 @@ identity:
     name:   Martin Surovčák
     age:    27
     city:   Prague
-    tags: ['geek', 'hacker']
+    tags:   ['geek', 'hacker']
 
 contact:
     mail:   martin.surovcak@gmail.com
