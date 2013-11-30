@@ -1,6 +1,7 @@
 ---
 identity:
     name:   Martin Surovčák
+    nick:   ['Chuck', 'Suro']
     age:    27
     city:   Prague
     tags:   ['geek', 'hacker']
@@ -28,11 +29,16 @@ work:
       position:   Product Manager
       what:       ['product management', 'ppc', 'online marketing', 'advertising', 'scrum', 'wireframes']
 
+    - time:       2007-2009
+      company:    Seznam.cz
+      position:   Sklik.cz Administrator
+      what:       ['communication with advertisers', 'bug reporting', 'blog', 'approving ads']
+
 setup:
     workstation:  ['osx', 'sublime text 2', 'iterm', 'mutt']
     server:       ['linux', 'arch', 'ubuntu', 'rhel', 'vim', 'puppet', 'python', 'php', 'flask', 'mongo', 'mysql']
 
-hobies:
+hobbies:
     - MTB
     - cooking
     - hacking
