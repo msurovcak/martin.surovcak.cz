@@ -1,0 +1,11 @@
+{% extends 'main.tmpl' %}
+{% block content %}
+{{ content }}
+{% endblock %}
+{% block revisions %}
+    <ul>
+    {% for commit in commits %}
+        <li><a href="/{{ commit.id }}.html"{% if current.id == commit.id %} class="current"{% endif %}><span class='commithash'>{{commit.id}}</span>{{ commit.message }}</a></li>
+    {% endfor %}
+    </ul>
+{% endblock %}

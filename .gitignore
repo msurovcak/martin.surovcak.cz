@@ -1,3 +1,7 @@
+# Generated pages
+static/*.html
+
+# Python
 *.py[cod]
 
 # C extensions
