@@ -1,11 +1,17 @@
 {% extends 'main.tmpl' %}
 {% block content %}
+    <pre>
 {{ content }}
+    </pre>
 {% endblock %}
 {% block revisions %}
-    <ul>
+    <ul class="list-group">
     {% for commit in commits %}
-        <li><a href="/{{ commit.id }}.html"{% if current.id == commit.id %} class="current"{% endif %}><span class='commithash'>{{commit.id}}</span>{{ commit.message }}</a></li>
+        <li class="list-group-item">
+            <a href="/{{ commit.id }}.html" class="list-group-item{% if current.id == commit.id %} active{% endif %}""><span class="badge">{{ commit.id }}</span>
+            {{ commit.message }}</a>
+            {{ commit.diff.data }}
+        </li>
     {% endfor %}
     </ul>
 {% endblock %}
