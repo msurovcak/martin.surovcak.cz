@@ -1,0 +1,44 @@
+---
+identity:
+    name:   Martin Surovčák
+    age:    27
+    city:   Prague
+    tags: ['geek', 'hacker']
+    status: single
+
+contact:
+    mail:   martin.surovcak@gmail.com
+    phone:  (+420) 725 241 885
+
+about: >
+    The only geek who does not watch Dexter and does not drink coffee!
+
+work:
+    - time:       2012 - now
+      company:    GoodData
+      position:   DevOps Platform Engineer
+      what:       ['linux', 'openstack', 'devops', 'python', 'bash', 'agile']
+
+    - time:       2011 - 2012
+      company:    Wincor Nixdorf
+      position:   System Administrator
+      what:       ['linux', 'activemq', 'incident management', 'bash']
+
+    - time:       2009 - 2011
+      company:    Seznam.cz
+      position:   Product Manager
+      what:       ['product management', 'ppc', 'online marketing', 'advertising', 'scrum', 'wireframes']
+
+setup:
+    workstation:  ['osx', 'sublime text 2', 'iterm', 'mutt']
+    server:       ['linux', 'arch', 'ubuntu', 'rhel', 'vim', 'puppet', 'python', 'php', 'flask', 'mongo', 'mysql']
+
+hobies:
+    - MTB
+    - cooking
+    - hacking
+
+links:
+    - 'https://facebook.com/msurovcak'
+    - 'https://twitter.com/msurovcak'
+    - 'https://github.com/msurovcak'
