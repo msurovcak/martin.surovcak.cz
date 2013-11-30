@@ -4,7 +4,6 @@ identity:
     age:    27
     city:   Prague
     tags: ['geek', 'hacker']
-    status: single
 
 contact:
     mail:   martin.surovcak@gmail.com
