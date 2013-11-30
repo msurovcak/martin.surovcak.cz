@@ -88,7 +88,8 @@ mark {
 code,
 kbd,
 pre,
-samp {
+samp,
+.hash {
   font-family: monospace, serif;
   font-size: 1em;
 }

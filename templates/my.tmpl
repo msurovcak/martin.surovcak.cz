@@ -8,7 +8,7 @@
     <ul class="list-group">
     {% for commit in commits %}
         <li class="list-group-item">
-            <a href="/{{ commit.id }}.html" class="list-group-item{% if current.id == commit.id %} active{% endif %}""><span class="badge">{{ commit.id }}</span>
+            <a href="/{{ commit.id }}.html" class="list-group-item{% if current.id == commit.id %} active{% endif %}""><span class="badge hash">{{ commit.id|truncate(8, true) }}</span>
             {{ commit.message }}</a>
             {{ commit.diff.data }}
         </li>
