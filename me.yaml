@@ -2,12 +2,12 @@
 identity:
     name:   Martin Surovčák
     nick:   ['Chuck', 'Suro']
-    age:    28
+    age:    29
     city:   Prague
     tags:   ['geek', 'hacker']
 
 contact:
-    mail:   martin.surovcak@gmail.com
+    mail:   martin@surovcak.cz
     phone:  (+420) 725 241 885
 
 about: >
@@ -16,8 +16,8 @@ about: >
 work:
     - time:       2012 - now
       company:    GoodData
-      position:   DevOps Platform Engineer
-      what:       ['linux', 'openstack', 'devops', 'python', 'bash', 'agile']
+      position:   Platform Software Engineer
+      what:       ['linux', 'openstack', 'devops', 'python', 'bash', 'agile', 'cloud', 'aws']
 
     - time:       2011 - 2012
       company:    Wincor Nixdorf
@@ -35,8 +35,10 @@ work:
       what:       ['communication with advertisers', 'bug reporting', 'blog', 'approving ads']
 
 setup:
-    workstation:  ['osx', 'sublime text 2', 'iterm', 'mutt']
-    server:       ['linux', 'arch', 'ubuntu', 'rhel', 'vim', 'puppet', 'python', 'php', 'flask', 'mongo', 'mysql']
+    workstation:  ['osx', 'sublime text 2', 'iterm', 'mutt', 'git']
+    server:       ['linux', 'arch', 'ubuntu', 'rhel', 'vim', 'puppet', 'python', 'php', 'flask',
+                   'mongo', 'mysql', 'ruby', 'serverspec', 'nginx', 'docker']
+    bike:         ['rb', 'hardtail', '650bb', 'spank', 'fireeye']
 
 hobbies:
     - MTB
