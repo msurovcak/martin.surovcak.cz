@@ -1,8 +1,8 @@
 ---
 identity:
     name:   Martin Surovčák
-    nick:   ['Chuck', 'Suro']
-    age:    30
+    nick:   suro
+    age:    32
     city:   Prague
     tags:   ['geek', 'hacker']
 
@@ -14,7 +14,11 @@ about: >
     The only geek who does not watch Dexter!
 
 work:
-    - time:       2012 - now
+    - time:       2018 - ?
+      company:    MemSource
+      position:   DevOps Engineer
+
+    - time:       2012 - 2017
       company:    GoodData
       position:   Platform Software Engineer
       what:       ['linux', 'openstack', 'devops', 'python', 'bash', 'agile', 'cloud', 'aws']
@@ -35,10 +39,10 @@ work:
       what:       ['communication with advertisers', 'bug reporting', 'blog', 'approving ads']
 
 setup:
-    workstation:  ['osx', 'sublime text 2', 'iterm', 'mutt', 'git']
+    workstation:  ['osx', 'sublime text 3', 'iterm', 'mutt', 'git']
     server:       ['linux', 'arch', 'ubuntu', 'rhel', 'vim', 'puppet', 'python', 'php', 'flask',
-                   'mongo', 'mysql', 'ruby', 'serverspec', 'nginx', 'docker']
-    bike:         ['rb', 'hardtail', '650bb', 'spank', 'fireeye']
+                   'mongo', 'mysql', 'ruby', 'serverspec', 'nginx', 'docker', 'k8s']
+    bikes:        ['rb crr', 'rose uncle jimbo', 'commencal furious', 'noname fixie']
 
 hobbies:
     - MTB
